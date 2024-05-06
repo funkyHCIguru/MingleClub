@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MingleClub</title>
+<link rel="shortcut icon" href="./Img/MingleClub_Brand_name_icon.ico" sizes="32x32" type="image/ico">
+<link rel="bookmark" href="./Img/MingleClub_Brand_name_logo.ico">
+<script src="./javascript/t.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/mntn-dev/t.js/t.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<link rel="stylesheet" href="reset.css">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="footer.css">
+<link rel="stylesheet" href="script.html">
+</head>
+
+<body>
+
+    <nav class="navbar_wrap" id="About_us_header">
+        <div class="navbar">
+            <a href="./index.html">
+                <div class="nav_logo"><img src="./Img/MingleClub_Logo_horizontal.png" alt="MingleClub_brand_logo"></div>
+            </a>
+            <div class="nav_hb" id="btnHamburger">
+                <span class="hb_dot"></span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24">
+                    <path fill="none" stroke="#141414" stroke-linecap="round" stroke-width="1.5"
+                        d="M20 7H4m16 5H4m16 5H4" />
+                </svg>
+            </div>
+        </div>
+        <ul class="nav_menu_list" id="menu" title="hidden">
+            <span></span>
+            <a href="./Main_Page_Browsing_events.html">
+                <div class="nav_hb_explore_events_btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24">
+                        <g fill="none" stroke="#141414" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                            <path
+                                d="M4 7a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm12-4v4M8 3v4m-4 4h16m-9.995 3h.01m3.99 0h.01" />
+                            <path d="M10.005 17a3.5 3.5 0 0 0 4 0" />
+                        </g>
+                    </svg>
+                    <li data-txt="Explore Events">Explore Events</li>
+                </div>
+            </a>
+            <span></span>
+            <a href="./Member_Login_page.html">
+                <div class="nav_hb_log_in_btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24">
+                        <g fill="none" stroke="#141414" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="1.5">
+                            <path d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10s10-4.477 10-10S17.523 2 12 2" />
+                            <path
+                                d="M4.271 18.346S6.5 15.5 12 15.5s7.73 2.846 7.73 2.846M12 12a3 3 0 1 0 0-6a3 3 0 0 0 0 6" />
+                        </g>
+                    </svg>
+                    <li data-txt="Log in">Log in</li>
+                </div>
+            </a>
+            <span></span>
+            <a href="./Member_Signup_page.html">
+                <ol id="nav_sign_up">
+                    <div class="nav_hb_sign_up_btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 2048 2048">
+                            <path fill="#141414"
+                                d="M1243 1236q-45-51-99-90t-116-67t-126-41t-134-14q-88 0-170 23t-153 64t-129 100t-100 130t-65 153t-23 170H0q0-120 35-231t101-205t156-167t204-115q-113-74-176-186t-64-248q0-106 40-199t109-163T568 40T768 0t199 40t163 109t110 163t40 200q0 66-16 129t-48 119t-75 103t-101 83q84 32 158 82t135 117zM384 512q0 80 30 149t82 122t122 83t150 30q79 0 149-30t122-82t83-122t30-150q0-79-30-149t-82-122t-123-83t-149-30q-80 0-149 30t-122 82t-83 123t-30 149m1464 384q42 0 78 15t64 41t42 63t16 79q0 39-15 76t-43 65l-717 717l-377 94l94-377l717-716q29-29 65-43t76-14m51 249q21-21 21-51q0-31-20-50t-52-20q-14 0-27 4t-23 15l-692 692l-34 135l135-34z" />
+                        </svg>
+                        <p data-txt="Sign up">Sign up</p>
+                    </div>
+                </ol>
+            </a>
+        </ul>
+    </nav>
+
+    <div class="About_us_header">
+        <div class="About_us_header_wrap">
+            <div class="About_us_logo">
+                <img src="./Img/MingleClub_Logo.png">
+            </div>
+            <div class="swiper-container About_us_banner_pic">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="./Img/About_us_banner_pic.jpg" alt="About us banner picture.">
+                    </div>
+                    <div class="swiper-slide"><img src="./Img/pexels-kampus-production-5935189-min.jpg"
+                            alt="About us banner picture."></div>
+                    <div class="swiper-slide"><img src="./Img/pexels-alexander-nadrilyanski-3684122-min-min.jpg"
+                            alt="About us banner picture."></div>
+                </div>
+            </div>
+            <div class="About_us_content">
+                <h1>MingleClub—Where interests evolve into <span id="emphasisFont">friendships</span>.</h1>
+                <p>Your Tribe Awaits at MingleClub!<br>Join MingleClub, Where Shared Passions Spark Lifelong
+                    Bonds.<br>For Over 20 Years, MingleClub has Fostered Genuine Connections.</p>
+                <a href="./Member_Login_page.html"><button>Join us today</button></a>
+            </div>
+        </div>
+        <div class="Carousel_btn swiper-pagination">
+            <span class="dot"></span>
+            <span class="dot2"></span>
+            <span class="dot3"></span>
+        </div>
+    </div>
+
+    <section class="About_us_news">
+        <div class="About_us_news_container">
+            <div class="About_us_news_title" id="About_us_news">
+                Seize Every Moment of 2024 with MingleClub's Vibrant Community!
+            </div>
+            <div class="About_us_news_subtitle">
+                Discover the joy of effortless friendship-building! Join over 60 million vibrant members on
+                MingleClub,
+                where connecting over shared interests, hobbies, and professional pursuits is just a click away.
+                Let's
+                gather, network, and have a blast together!"
+            </div>
+
+            <div class="About_us_news_card_wrap">
+                <div class="About_us_news_card_list">
+                    <div class="About_us_news_card_txt_1">
+                        <h3>Build lasting friendships</h3>
+                        <p>Spark new friendships. Start a group to meet people who are new in town or longtime
+                            locals.
+                            Enjoy
+                            nightlife, happy hours, game nights, music, and more.</p>
+                    </div>
+                    <div class="About_us_news_card_pic">
+                        <img src="./Img/pexels-kampus-production-5935189-min.jpg">
+                    </div>
+                </div>
+                <div class="About_us_news_card_list">
+                    <div class="About_us_news_card_txt_1">
+                        <h3>Build healthy habits</h3>
+                        <p>What are your health goals this year? Start a group to practice yoga,
+                            play a sport, run, hike, bike, and meet your goals together.</p>
+                    </div>
+                    <div class="About_us_news_card_pic">
+                        <img src="./Img/pexels-elina-fairytale-3822356-min-min.jpg">
+                    </div>
+                </div>
+                <div class="About_us_news_card_list">
+                    <div class="About_us_news_card_txt">
+                        <h3>Build a network for career </h3>
+                        <p>From real estate to entrepreneurship and business development, there are
+                            people who share your professional interests on MingleClub.
+                        </p>
+                    </div>
+                    <div class="About_us_news_card_pic">
+                        <img src="./Img/pexels-fauxels-3184291-min.jpg">
+                    </div>
+                </div>
+                <div class="About_us_news_card_list">
+                    <div class="About_us_news_card_txt">
+                        <h3>Advancing your professional expertise</h3>
+                        <p>Dive into opportunities for professional development to networking events.
+                            All while enhancing your skills for career success.</p>
+                    </div>
+                    <div class="About_us_news_card_pic">
+                        <img src="./Img/pexels-alexander-nadrilyanski-3684122-min-min.jpg">
+                    </div>
+                </div>
+                <div class="About_us_news_card_list_5">
+                    <div class="About_us_news_card_txt_1">
+                        <h3>Prioritize your passions</h3>
+                        <p>Meet people who share your love for art, crafts, language, or music. Teach lessons or
+                            start a
+                            culture exchange when you create a group.</p>
+                    </div>
+                    <div class="About_us_news_card_pic">
+                        <img src="./Img/istockphoto-1080548636-612x612-min.jpg">
+                    </div>
+                </div>
+            </div>
+
+            <a href="./Main_Page_Browsing_events.html"><button>Find your next event</button></a>
+        </div>
+    </section>
+
+    <section class="Explore_events_app_wrap" id="Explore_events_app_wrap">
+        <div class="Explore_events_app_pic">
+            <img src="./Img/app_image_slider.png">
+        </div>
+        <div class="Explore_events_app_des">
+            <div class="Explore_events_app_title">
+                Explore Events.<br>
+                Everywhere, Every Moment.
+            </div>
+            <div class="Explore_events_app_subtitle">
+                Download the MingleClub app to never miss out on the best events near you!
+            </div>
+            <div class="download_container">
+                <img class="Qr_code_img" src="./Img/qrcode_funkyhciguru.github.io.png" alt="Qr_code_img">
+                <p>OR</p>
+                <div class="download_btn">
+                    <img src="./Img/google-play-badge-logo-svgrepo-com.png" alt="google_play_badge_logo">
+                    <img src="./Img/download-on-the-app-store-apple-logo-svgrepo-com.png" alt="apple_store_badge_logo">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer_section_area">
+            <div class="footer_quick_link_btn_wrap">
+                <div class="footer_quick_link_btn">
+                    <ul>
+                        <li id="footer_quick_link_btn_title">Home</li>
+                        <li><a href="./index.html#About_us_header" onclick="smoothScroll('About_us_header')">-About
+                                Us</a></li>
+                        <li><a href="./index.html#About_us_news" onclick="smoothScroll('About_us_news')">-News</a></li>
+                        <li><a href="./index.html#Explore_events_app_wrap"
+                                onclick="smoothScroll('Explore_events_app_wrap')">-Apps</a></li>
+                    </ul>
+                </div>
+                <div class="footer_quick_link_btn">
+                    <ul>
+                        <li id="footer_quick_link_btn_title">Discover</li>
+                        <li>
+                            <a href="./Main_Page_Browsing_events.html#exploreEvents">-Events</a>
+                        </li>
+                        <li><a href="./Main_Page_Browsing_events.html"
+                                onclick="redirectToSection('./Main_Page_Browsing_events.html#quicksearch')">-Quick
+                                Search</a></li>
+                    </ul>
+                </div>
+                <div class="footer_quick_link_btn">
+                    <ul>
+                        <li id="footer_quick_link_btn_title">Your account</li>
+                        <a href="./Member_Signup_page.html">
+                            <li>-Sign up</li>
+                        </a>
+                        <a href="./Member_Login_page.html">
+                            <li>-Log in</li>
+                        </a>
+                        <a href="./Your_events_reminder.html">
+                            <li>-Event Reminder</li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer_brand_brief_wrap">
+                <div class="footer_logo"><img src="./Img/MingleClub_Logo.png" alt="MingleClub_Brand_logo"></div>
+                <div class="about_us_list">
+                    <h3>MINGLE CLUB</h3>
+                    <p>Dive into your passions, unite with kindred souls. MingleClub ignites dynamic, lasting
+                        connections!</p>
+                </div>
+                <div class="sub_news">
+                    <h3>Subscribe For Exclusive Content</h3>
+                    <div class="sub_news_input">
+                        <input type="email" placeholder="Enter your email*">
+                        <button>Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer_copyright">
+            <p>COPYRIGHT © 2024  MINGLECLUB · ALL RIGHTS RESERVED · PRIVACY POLICY · TERMS OF USE</p>
+        </div>
+    </footer>
+
+    <script>
+        function showMenu() {
+            let navMenu = document.getElementById("menu");
+
+            if (navMenu.title === "hidden") {
+                navMenu.style.display = "flex";
+                navMenu.title = "";
+
+            } else {
+                navMenu.style.display = "none";
+                navMenu.title = "hidden";
+            }
+        }
+
+        function init() {
+            document.getElementById("btnHamburger").onclick = showMenu;
+        }
+        window.addEventListener("load", init, false);
+
+    </script>
+
+    <script>
+        $(function () {
+            var texts = ["friendships", "networks", "passions"];
+            var index = 0;
+
+            function rotateText() {
+                var text = texts[index];
+                $('#emphasisFont').text('').t(text, {
+                    speed: 50,
+                    delay: 1,
+                    repeat: false,
+                    pause_on_click: true,
+                    blink: false,
+                    fin: function () {
+                        index = (index + 1) % texts.length;
+                        setTimeout(rotateText, 3000);
+                    }
+                });
+            }
+
+            rotateText();
+        });
+    </script>
+
+    <script>
+
+        function smoothScroll(target) {
+            const element = document.getElementById(target);
+            element.scrollIntoView({ behavior: 'smooth' });
+        }
+
+        function redirectToSection(target) {
+            window.location.href = target;
+        }
+
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+
+    <script>
+        var swiper = new Swiper(".About_us_banner_pic", {
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            autoplay: {
+                delay: 4500,
+                disableOnInteraction: false,
+            },
+        });
+    </script>
+
+<script>
+    const cardElements = document.querySelectorAll('.About_us_news_card_list, .About_us_news_card_list_5');
+    const wrapElement = document.querySelector('.About_us_news_card_wrap');
+
+
+    cardElements.forEach(card => {
+        card.addEventListener('click', () => {
+
+            wrapElement.appendChild(card);
+
+
+            cardElements.forEach(otherCard => {
+                if (otherCard === card) {
+
+                    card.style.backgroundColor = '#F07943';
+                    card.style.color = '#FFFFFF';
+                } else {
+
+                    otherCard.style.backgroundColor = '#F1EFDB';
+                    otherCard.style.color = '#000814';
+                }
+            });
+        });
+    });
+
+    cardElements.forEach(card => {
+        card.style.transition = 'transform 0.5s ease';
+        card.style.transition = 'behavior: smooth';
+    });
+
+</script>
+
+</body>
+
+</html>

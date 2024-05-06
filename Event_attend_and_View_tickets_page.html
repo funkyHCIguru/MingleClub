@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MingleClub</title>
+<link rel="shortcut icon" href="./Img/MingleClub_Brand_name_icon.ico" sizes="32x32" type="image/ico">
+<link rel="bookmark" href="./Img/MingleClub_Brand_name_logo.ico">
+<script src="https://kit.fontawesome.com/0f1d5b63dd.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="reset.css">
+<link rel="stylesheet" href="footer.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+</head>
+
+<body>
+    <nav class="navbar_wrap_2">
+        <div class="navbar_2">
+        <a href="./index.html">
+            <div class="nav_logo_2"><img src="./Img/MingleClub_Logo_horizontal_without_brand_name.png"
+                    alt="MingleClub_brand_logo"></div>
+        </a>
+        <div class="hero_searchbar_2">
+            <div class="search_event_btn_2">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Search Events">
+            </div>
+            <div class="search_city_btn_2">
+                <i class="fa-solid fa-location-dot"></i>
+                <input type="text" placeholder="Taipei">
+            </div>
+        </div>
+            <div class="nav_hb_2" id="btnHamburger">
+                <span class="hb_dot"></span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24">
+                    <path fill="none" stroke="#141414" stroke-linecap="round" stroke-width="1.5"
+                        d="M20 7H4m16 5H4m16 5H4" />
+                </svg>
+            </div></div>
+        <ul class="nav_menu_list_2" id="menu" title="hidden">
+            <span></span>
+            <a href="./Event_Page_1.html#event_attendees_list">
+            <div class="nav_menu_connections">
+                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24">
+                    <path fill="currentColor"
+                        d="M3.5 8a5.5 5.5 0 1 1 8.596 4.547a9.005 9.005 0 0 1 5.9 8.18a.751.751 0 0 1-1.5.045a7.5 7.5 0 0 0-14.993 0a.75.75 0 0 1-1.499-.044a9.005 9.005 0 0 1 5.9-8.181A5.496 5.496 0 0 1 3.5 8M9 4a4 4 0 1 0 0 8a4 4 0 0 0 0-8m8.29 4c-.148 0-.292.01-.434.03a.75.75 0 1 1-.212-1.484a4.53 4.53 0 0 1 3.38 8.097a6.69 6.69 0 0 1 3.956 6.107a.75.75 0 0 1-1.5 0a5.193 5.193 0 0 0-3.696-4.972l-.534-.16v-1.676l.41-.209A3.03 3.03 0 0 0 17.29 8" />
+                </svg>
+                <p>Connections</p>
+            </div></a><a href="./Event_Page_1.html#event_comments_list">
+            <div class="nav_menu_messages">
+                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24">
+                    <path fill="currentColor"
+                        d="M20 2H4c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h3v3.767L13.277 18H20c1.103 0 2-.897 2-2V4c0-1.103-.897-2-2-2m0 14h-7.277L9 18.233V16H4V4h16z" />
+                </svg>
+                <p>Messages</p>
+            </div></a><a href="./Your_events_reminder.html#events_reminder">
+            <div class="nav_menu_notifications">
+                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24">
+                    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                        stroke-width="1.5"
+                        d="M18.134 11C18.715 16.375 21 18 21 18H3s3-2.133 3-9.6c0-1.697.632-3.325 1.757-4.525S10.41 2 12 2q.507 0 1 .09M19 8a3 3 0 1 0 0-6a3 3 0 0 0 0 6m-5.27 13a2 2 0 0 1-3.46 0" />
+                </svg>
+                <p>Notifications</p>
+            </div></a>
+            <a href="./Member_Login_page.html">
+                <div class="nav_menu_login">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24">
+                        <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="1.5">
+                            <path d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10s10-4.477 10-10S17.523 2 12 2" />
+                            <path
+                                d="M4.271 18.346S6.5 15.5 12 15.5s7.73 2.846 7.73 2.846M12 12a3 3 0 1 0 0-6a3 3 0 0 0 0 6" />
+                        </g>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35"
+                        class="dropdown_btn">
+                        <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2" d="m7 10l5 5l5-5" />
+                    </svg>
+                    <p class="login">Log in</p>
+                </div>
+            </a>
+        </ul>
+    </nav>
+    <a href="./index.html">
+        <div class="back_to_home_page_group_2"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                viewBox="0 0 16 16">
+                <path fill="#141414" fill-rule="evenodd"
+                    d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8" />
+            </svg>
+            <p>Back to home page</p>
+        </div>
+    </a>
+    <div class="event_attend_page_wrap">
+        <section class="event_attend_page_layout_left">
+            <div class="event_attend_header">
+                <div class="event_attend_header_txt">
+                    <div class="event_attend_order_checked">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 48 48">
+                            <defs>
+                                <mask id="ipSCheckOne0">
+                                    <g fill="none" stroke-linejoin="round" stroke-width="4">
+                                        <path fill="#fff" stroke="#fff"
+                                            d="M24 44a19.937 19.937 0 0 0 14.142-5.858A19.937 19.937 0 0 0 44 24a19.938 19.938 0 0 0-5.858-14.142A19.937 19.937 0 0 0 24 4A19.938 19.938 0 0 0 9.858 9.858A19.938 19.938 0 0 0 4 24a19.937 19.937 0 0 0 5.858 14.142A19.938 19.938 0 0 0 24 44Z" />
+                                        <path stroke="#000" stroke-linecap="round" d="m16 24l6 6l12-12" />
+                                    </g>
+                                </mask>
+                            </defs>
+                            <path fill="#F07943" d="M0 0h48v48H0z" mask="url(#ipSCheckOne0)" />
+                        </svg>
+                        <h3>Thanks for your order!</h3>
+                    </div>
+                    <p>#9258970719</p>
+                    <a href="./Img/view_tickets_download.pdf" download><button class="view_tickets_btn">View
+                            tickets</button></a>
+                </div>
+            </div>
+            <div class="event_attend_container">
+                <div class="event_attend_container_group">
+                    <div class="event_attend_container_title">
+                        <h3>YOU’RE GOING TO</h3>
+                    </div>
+                    <div class="event_attend_box_summary">
+                        <div class="event_attend_box_pic">
+                            <img src="./Img/istockphoto-1489453863-612x612.jpg" alt="event_register_pic">
+                        </div>
+                        <div class="event_attend_box_txt">
+                            <div class="event_attend_time">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 2048 2048">
+                                    <path fill="#F07943"
+                                        d="M1707 911q78 37 141 93t108 127t68 152t24 168q0 123-47 232t-128 190t-190 128t-232 47q-87 0-168-24t-151-68t-127-107t-94-142H0V171h341V0h171v171h683V0h170v171h342zM171 512h1365V341H171zm688 1024q-6-42-6-85q0-124 47-233t128-190t190-128t233-47q43 0 85 6V683H171v853zm592 341q88 0 165-33t136-92t91-135t34-166q0-88-33-166t-91-136t-136-91t-166-34q-89 0-166 33t-136 92t-91 136t-34 166q0 89 33 166t92 135t136 91t166 34m85-512h171v171h-342v-341h171z" />
+                                </svg>
+                                <p>Wed, Apr 10, 2024 11:00 PM CST</p>
+                            </div>
+                            <h3>How to Build a $100K A.I Business - Exclusive Workshop</h3>
+                            <div class="event_attend_calender">
+                                <a href="./Your_events_reminder.html"><button class="add_calender_btn">Add to calendar
+                                    </button></a>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 15 15">
+                                    <path fill="#FFFFFF" fill-rule="evenodd"
+                                        d="M4.5 1a.5.5 0 0 1 .5.5V2h5v-.5a.5.5 0 0 1 1 0V2h1.5A1.5 1.5 0 0 1 14 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-10A1.5 1.5 0 0 1 1 12.5v-9A1.5 1.5 0 0 1 2.5 2H4v-.5a.5.5 0 0 1 .5-.5M10 3v.5a.5.5 0 0 0 1 0V3h1.5a.5.5 0 0 1 .5.5V5H2V3.5a.5.5 0 0 1 .5-.5H4v.5a.5.5 0 0 0 1 0V3zM2 6v6.5a.5.5 0 0 0 .5.5h10a.5.5 0 0 0 .5-.5V6zm5 1.5a.5.5 0 1 1 1 0a.5.5 0 0 1-1 0M9.5 7a.5.5 0 1 0 0 1a.5.5 0 0 0 0-1m1.5.5a.5.5 0 1 1 1 0a.5.5 0 0 1-1 0m.5 1.5a.5.5 0 1 0 0 1a.5.5 0 0 0 0-1M9 9.5a.5.5 0 1 1 1 0a.5.5 0 0 1-1 0M7.5 9a.5.5 0 1 0 0 1a.5.5 0 0 0 0-1M5 9.5a.5.5 0 1 1 1 0a.5.5 0 0 1-1 0M3.5 9a.5.5 0 1 0 0 1a.5.5 0 0 0 0-1M3 11.5a.5.5 0 1 1 1 0a.5.5 0 0 1-1 0m2.5-.5a.5.5 0 1 0 0 1a.5.5 0 0 0 0-1m1.5.5a.5.5 0 1 1 1 0a.5.5 0 0 1-1 0m2.5-.5a.5.5 0 1 0 0 1a.5.5 0 0 0 0-1"
+                                        clip-rule="evenodd" />
+                                </svg>
+                            </div>
+                            <div class="event_attend_btn_footer_group">
+                                <div class="event_attend_chat">
+                                    <button class="event_chat_btn">Event chat </button>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
+                                        <path fill="#FFFFFF"
+                                            d="M20 2H4c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h3v3.767L13.277 18H20c1.103 0 2-.897 2-2V4c0-1.103-.897-2-2-2m0 14h-7.277L9 18.233V16H4V4h16z" />
+                                    </svg>
+                                </div>
+                                <div class="event_attend_share">
+                                    <button class="event_attend_share_btn">Share </button>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
+                                        <path fill="none" stroke="#FFFFFF" stroke-linecap="round"
+                                            stroke-linejoin="round" stroke-width="2"
+                                            d="M8 9H7a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-8a2 2 0 0 0-2-2h-1m-4 5V3M9 6l3-3l3 3" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="event_attend_host_list">
+                        <div class="event_attend_host_pic"><img src="./Img/edward-cisneros-_H6wpor9mjs-unsplash-min.jpg"
+                                alt="event_attend_host_pic"></div>
+                        <div class="event_attend_host_details">
+                            <p>Don’t miss out on events from</p>
+                            <h3>Mindful Artistry</h3>
+                            <p>3.9K followers</p>
+                        </div>
+                        <div>
+                            <button class="event_attend_host_follow_btn">Follow</button>
+                        </div>
+                    </div>
+                    <div class="event_attend_social_media_icon_group">
+                        <div class="facebook">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24">
+                                <path fill="#F07943"
+                                    d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95c5.05-.5 9-4.76 9-9.95" />
+                            </svg>
+                        </div>
+                        <div class="line">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24">
+                                <path fill="#F07943"
+                                    d="M13.78 9.46a.38.38 0 0 0-.38.38v1.67L12 9.65a.4.4 0 0 0-.33-.19a.38.38 0 0 0-.38.38v2.84a.38.38 0 0 0 .38.38a.38.38 0 0 0 .38-.38V11l1.39 1.91a.27.27 0 0 0 .15.11a.32.32 0 0 0 .14 0A.33.33 0 0 0 14 13l.1-.07a.39.39 0 0 0 .11-.27V9.84a.38.38 0 0 0-.43-.38M9.2 12.27H8.14V9.84a.38.38 0 0 0-.38-.38a.38.38 0 0 0-.38.38v2.84a.38.38 0 0 0 .38.38H9.2a.39.39 0 0 0 .39-.38a.39.39 0 0 0-.39-.41m1.11-2.81a.39.39 0 0 0-.39.38v2.84a.39.39 0 0 0 .39.38a.38.38 0 0 0 .38-.38V9.84a.38.38 0 0 0-.38-.38M17.91 2H6.09A4.1 4.1 0 0 0 2 6.09v11.82A4.1 4.1 0 0 0 6.09 22h11.82A4.1 4.1 0 0 0 22 17.91V6.09A4.1 4.1 0 0 0 17.91 2m.31 12.28a1.55 1.55 0 0 1-.13.17a5.5 5.5 0 0 1-.8.8c-2 1.87-5.36 4.11-5.81 3.76s.64-1.76-.53-2a1 1 0 0 1-.25 0c-3.44-.48-6-2.89-6-5.78c0-3.25 3.29-5.88 7.34-5.88s7.34 2.63 7.34 5.88a5 5 0 0 1-1.16 3.05m-1.71-4.81H15a.38.38 0 0 0-.38.38v2.84a.38.38 0 0 0 .38.38h1.48a.38.38 0 0 0 .38-.38a.38.38 0 0 0-.38-.38h-1.03v-.6h1.06a.39.39 0 0 0 .38-.39a.38.38 0 0 0-.38-.38h-1.06v-.61h1.06a.38.38 0 0 0 .38-.38a.38.38 0 0 0-.38-.48" />
+                            </svg>
+                        </div>
+                        <div class="instagram">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24">
+                                <path fill="#F07943"
+                                    d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4zm9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8A1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5a5 5 0 0 1-5 5a5 5 0 0 1-5-5a5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3a3 3 0 0 0 3 3a3 3 0 0 0 3-3a3 3 0 0 0-3-3" />
+                            </svg>
+                        </div>
+                        <div class="twitter">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24">
+                                <path fill="#F07943"
+                                    d="M22.46 6c-.77.35-1.6.58-2.46.69c.88-.53 1.56-1.37 1.88-2.38c-.83.5-1.75.85-2.72 1.05C18.37 4.5 17.26 4 16 4c-2.35 0-4.27 1.92-4.27 4.29c0 .34.04.67.11.98C8.28 9.09 5.11 7.38 3 4.79c-.37.63-.58 1.37-.58 2.15c0 1.49.75 2.81 1.91 3.56c-.71 0-1.37-.2-1.95-.5v.03c0 2.08 1.48 3.82 3.44 4.21a4.2 4.2 0 0 1-1.93.07a4.28 4.28 0 0 0 4 2.98a8.52 8.52 0 0 1-5.33 1.84q-.51 0-1.02-.06C3.44 20.29 5.7 21 8.12 21C16 21 20.33 14.46 20.33 8.79c0-.19 0-.37-.01-.56c.84-.6 1.56-1.36 2.14-2.23" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="event_attend_page_layout_right">
+            <div class="more_plans_series_list">
+                <div class="more_plans_series_title">
+                    <h3>Make more plans from this series</h3>
+                    <div class="more_plans_series_btn_left_group">
+                        <button class="more_plans_series_btn_left"></button>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="26.67" height="15" viewBox="0 0 16 9"
+                            class="swiper-button-prev">
+                            <path fill="#FFFFFF"
+                                d="M12.5 5h-9c-.28 0-.5-.22-.5-.5s.22-.5.5-.5h9c.28 0 .5.22.5.5s-.22.5-.5.5" />
+                            <path fill="#FFFFFF"
+                                d="M6 8.5a.47.47 0 0 1-.35-.15l-3.5-3.5c-.2-.2-.2-.51 0-.71L5.65.65c.2-.2.51-.2.71 0s.2.51 0 .71L3.21 4.51l3.15 3.15c.2.2.2.51 0 .71c-.1.1-.23.15-.35.15Z" />
+                        </svg>
+                    </div>
+                    <div class="more_plans_series_btn_right_group">
+                        <button class="more_plans_series_btn_right"></button>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="26.67" height="15" viewBox="0 0 16 9"
+                            class="swiper-button-next">
+                            <path fill="#FFFFFF"
+                                d="M12.5 5h-9c-.28 0-.5-.22-.5-.5s.22-.5.5-.5h9c.28 0 .5.22.5.5s-.22.5-.5.5" />
+                            <path fill="#FFFFFF"
+                                d="M10 8.5a.47.47 0 0 1-.35-.15c-.2-.2-.2-.51 0-.71l3.15-3.15l-3.15-3.15c-.2-.2-.2-.51 0-.71s.51-.2.71 0l3.5 3.5c.2.2.2.51 0 .71l-3.5 3.5c-.1.1-.23.15-.35.15Z" />
+                        </svg>
+                    </div>
+                </div>
+
+                <div class='swiper-top'>
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="more_plans_series_card_wrap swiper-slide">
+                                <a href="./Event_Page_2.html">
+                                    <div class="more_plans_series_card">
+                                        <div class="more_plans_series_card_pic">
+                                            <img src="./Img/evangeline-shaw-BdV23FLkmxQ-unsplash-min.jpg"
+                                                alt="more_plans_series_card_pic_1">
+                                        </div>
+                                        <div class="more_plans_series_card_txt">
+                                            <h3>SEO Masterclass: How to Rank Any Website</h3>
+
+                                            <div class="more_plans_series_card_time">
+                                                <p>Thursday, March 28, 2024 12:00 PM CST</p>
+                                            </div>
+                                            <div class="more_plans_series_card_price">
+                                                <p>Starts at $69.98</p>
+                                            </div>
+                                            <div class="more_plans_series_card_interested">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                                                    viewBox="0 0 24 24">
+                                                    <path fill="#3B7C46"
+                                                        d="M17.66 11.2c-.23-.3-.51-.56-.77-.82c-.67-.6-1.43-1.03-2.07-1.66C13.33 7.26 13 4.85 13.95 3c-.95.23-1.78.75-2.49 1.32c-2.59 2.08-3.61 5.75-2.39 8.9c.04.1.08.2.08.33c0 .22-.15.42-.35.5c-.23.1-.47.04-.66-.12a.6.6 0 0 1-.14-.17c-1.13-1.43-1.31-3.48-.55-5.12C5.78 10 4.87 12.3 5 14.47c.06.5.12 1 .29 1.5c.14.6.41 1.2.71 1.73c1.08 1.73 2.95 2.97 4.96 3.22c2.14.27 4.43-.12 6.07-1.6c1.83-1.66 2.47-4.32 1.53-6.6l-.13-.26c-.21-.46-.77-1.26-.77-1.26m-3.16 6.3c-.28.24-.74.5-1.1.6c-1.12.4-2.24-.16-2.9-.82c1.19-.28 1.9-1.16 2.11-2.05c.17-.8-.15-1.46-.28-2.23c-.12-.74-.1-1.37.17-2.06c.19.38.39.76.63 1.06c.77 1 1.98 1.44 2.24 2.8c.04.14.06.28.06.43c.03.82-.33 1.72-.93 2.27" />
+                                                </svg>
+                                                <p>35 interested</p>
+                                            </div>
+                                        </div>
+                                        <div class="more_plans_series_card_btn_group">
+                                            <div class="more_plans_series_card_save_btn">
+                                                <span class="save_btn_dot"></span>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                                                    viewBox="0 0 24 24">
+                                                    <path fill="#141414"
+                                                        d="M5 21V5q0-.825.588-1.412T7 3h10q.825 0 1.413.588T19 5v16l-7-3zm2-3.05l5-2.15l5 2.15V5H7zM7 5h10z" />
+                                                </svg>
+                                            </div>
+                                            <div class="more_plans_series_card_share_btn">
+                                                <span class="share_btn_dot"></span>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                                                    viewBox="0 0 24 24">
+                                                    <path fill="#141414"
+                                                        d="M18 8h-2c-.55 0-1 .45-1 1s.45 1 1 1h2v11H6V10h2c.55 0 1-.45 1-1s-.45-1-1-1H6c-1.1 0-2 .9-2 2v11c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2" />
+                                                    <path fill="#141414"
+                                                        d="M12 16c.55 0 1-.45 1-1V5h1.79c.45 0 .67-.54.35-.85l-2.79-2.79c-.2-.2-.51-.2-.71 0L8.85 4.15a.5.5 0 0 0 .36.85H11v10c0 .55.45 1 1 1" />
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="more_plans_series_card_wrap swiper-slide">
+                                <a href="./Event_Page_2.html">
+                                    <div class="more_plans_series_card">
+                                        <div class="more_plans_series_card_pic">
+                                            <img src="./Img/istockphoto-943067460-612x612-min.jpg"
+                                                alt="more_plans_series_card_pic_2">
+                                        </div>
+                                        <div class="more_plans_series_card_txt">
+                                            <h3>SEO Masterclass: How to Rank Any Website</h3>
+
+                                            <div class="more_plans_series_card_time">
+                                                <p>Thursday, March 28, 2024 12:00 PM CST</p>
+                                            </div>
+                                            <div class="more_plans_series_card_price">
+                                                <p>Starts at $69.98</p>
+                                            </div>
+                                            <div class="more_plans_series_card_interested">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                                                    viewBox="0 0 24 24">
+                                                    <path fill="#3B7C46"
+                                                        d="M17.66 11.2c-.23-.3-.51-.56-.77-.82c-.67-.6-1.43-1.03-2.07-1.66C13.33 7.26 13 4.85 13.95 3c-.95.23-1.78.75-2.49 1.32c-2.59 2.08-3.61 5.75-2.39 8.9c.04.1.08.2.08.33c0 .22-.15.42-.35.5c-.23.1-.47.04-.66-.12a.6.6 0 0 1-.14-.17c-1.13-1.43-1.31-3.48-.55-5.12C5.78 10 4.87 12.3 5 14.47c.06.5.12 1 .29 1.5c.14.6.41 1.2.71 1.73c1.08 1.73 2.95 2.97 4.96 3.22c2.14.27 4.43-.12 6.07-1.6c1.83-1.66 2.47-4.32 1.53-6.6l-.13-.26c-.21-.46-.77-1.26-.77-1.26m-3.16 6.3c-.28.24-.74.5-1.1.6c-1.12.4-2.24-.16-2.9-.82c1.19-.28 1.9-1.16 2.11-2.05c.17-.8-.15-1.46-.28-2.23c-.12-.74-.1-1.37.17-2.06c.19.38.39.76.63 1.06c.77 1 1.98 1.44 2.24 2.8c.04.14.06.28.06.43c.03.82-.33 1.72-.93 2.27" />
+                                                </svg>
+                                                <p>35 interested</p>
+                                            </div>
+                                        </div>
+                                        <div class="more_plans_series_card_btn_group">
+                                            <div class="more_plans_series_card_save_btn">
+                                                <span class="save_btn_dot"></span>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                                                    viewBox="0 0 24 24">
+                                                    <path fill="#141414"
+                                                        d="M5 21V5q0-.825.588-1.412T7 3h10q.825 0 1.413.588T19 5v16l-7-3zm2-3.05l5-2.15l5 2.15V5H7zM7 5h10z" />
+                                                </svg>
+                                            </div>
+                                            <div class="more_plans_series_card_share_btn">
+                                                <span class="share_btn_dot"></span>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                                                    viewBox="0 0 24 24">
+                                                    <path fill="#141414"
+                                                        d="M18 8h-2c-.55 0-1 .45-1 1s.45 1 1 1h2v11H6V10h2c.55 0 1-.45 1-1s-.45-1-1-1H6c-1.1 0-2 .9-2 2v11c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2" />
+                                                    <path fill="#141414"
+                                                        d="M12 16c.55 0 1-.45 1-1V5h1.79c.45 0 .67-.54.35-.85l-2.79-2.79c-.2-.2-.51-.2-.71 0L8.85 4.15a.5.5 0 0 0 .36.85H11v10c0 .55.45 1 1 1" />
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="more_plans_series_card_wrap swiper-slide">
+                                <a href="./Event_Page_2.html">
+                                    <div class="more_plans_series_card">
+                                        <div class="more_plans_series_card_pic">
+                                            <img src="./Img/marvin-meyer-SYTO3xs06fU-unsplash-min.jpg"
+                                                alt="more_plans_series_card_pic_3">
+                                        </div>
+                                        <div class="more_plans_series_card_txt">
+                                            <h3>SEO Masterclass: How to Rank Any Website</h3>
+
+                                            <div class="more_plans_series_card_time">
+                                                <p>Thursday, March 28, 2024 12:00 PM CST</p>
+                                            </div>
+                                            <div class="more_plans_series_card_price">
+                                                <p>Starts at $69.98</p>
+                                            </div>
+                                            <div class="more_plans_series_card_interested">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                                                    viewBox="0 0 24 24">
+                                                    <path fill="#3B7C46"
+                                                        d="M17.66 11.2c-.23-.3-.51-.56-.77-.82c-.67-.6-1.43-1.03-2.07-1.66C13.33 7.26 13 4.85 13.95 3c-.95.23-1.78.75-2.49 1.32c-2.59 2.08-3.61 5.75-2.39 8.9c.04.1.08.2.08.33c0 .22-.15.42-.35.5c-.23.1-.47.04-.66-.12a.6.6 0 0 1-.14-.17c-1.13-1.43-1.31-3.48-.55-5.12C5.78 10 4.87 12.3 5 14.47c.06.5.12 1 .29 1.5c.14.6.41 1.2.71 1.73c1.08 1.73 2.95 2.97 4.96 3.22c2.14.27 4.43-.12 6.07-1.6c1.83-1.66 2.47-4.32 1.53-6.6l-.13-.26c-.21-.46-.77-1.26-.77-1.26m-3.16 6.3c-.28.24-.74.5-1.1.6c-1.12.4-2.24-.16-2.9-.82c1.19-.28 1.9-1.16 2.11-2.05c.17-.8-.15-1.46-.28-2.23c-.12-.74-.1-1.37.17-2.06c.19.38.39.76.63 1.06c.77 1 1.98 1.44 2.24 2.8c.04.14.06.28.06.43c.03.82-.33 1.72-.93 2.27" />
+                                                </svg>
+                                                <p>35 interested</p>
+                                            </div>
+                                        </div>
+                                        <div class="more_plans_series_card_btn_group">
+                                            <div class="more_plans_series_card_save_btn">
+                                                <span class="save_btn_dot"></span>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                                                    viewBox="0 0 24 24">
+                                                    <path fill="#141414"
+                                                        d="M5 21V5q0-.825.588-1.412T7 3h10q.825 0 1.413.588T19 5v16l-7-3zm2-3.05l5-2.15l5 2.15V5H7zM7 5h10z" />
+                                                </svg>
+                                            </div>
+                                            <div class="more_plans_series_card_share_btn">
+                                                <span class="share_btn_dot"></span>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                                                    viewBox="0 0 24 24">
+                                                    <path fill="#141414"
+                                                        d="M18 8h-2c-.55 0-1 .45-1 1s.45 1 1 1h2v11H6V10h2c.55 0 1-.45 1-1s-.45-1-1-1H6c-1.1 0-2 .9-2 2v11c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2" />
+                                                    <path fill="#141414"
+                                                        d="M12 16c.55 0 1-.45 1-1V5h1.79c.45 0 .67-.54.35-.85l-2.79-2.79c-.2-.2-.51-.2-.71 0L8.85 4.15a.5.5 0 0 0 .36.85H11v10c0 .55.45 1 1 1" />
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="event_attend_page_breakpoints">
+            <a href="./Img/view_tickets_download.pdf" download><button class="view_tickets_btn_2">View
+                    tickets</button></a>
+            <div class="event_attend_social_media_icon_group_2">
+                <div class="facebook">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24">
+                        <path fill="#F07943"
+                            d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95c5.05-.5 9-4.76 9-9.95" />
+                    </svg>
+                </div>
+                <div class="line">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24">
+                        <path fill="#F07943"
+                            d="M13.78 9.46a.38.38 0 0 0-.38.38v1.67L12 9.65a.4.4 0 0 0-.33-.19a.38.38 0 0 0-.38.38v2.84a.38.38 0 0 0 .38.38a.38.38 0 0 0 .38-.38V11l1.39 1.91a.27.27 0 0 0 .15.11a.32.32 0 0 0 .14 0A.33.33 0 0 0 14 13l.1-.07a.39.39 0 0 0 .11-.27V9.84a.38.38 0 0 0-.43-.38M9.2 12.27H8.14V9.84a.38.38 0 0 0-.38-.38a.38.38 0 0 0-.38.38v2.84a.38.38 0 0 0 .38.38H9.2a.39.39 0 0 0 .39-.38a.39.39 0 0 0-.39-.41m1.11-2.81a.39.39 0 0 0-.39.38v2.84a.39.39 0 0 0 .39.38a.38.38 0 0 0 .38-.38V9.84a.38.38 0 0 0-.38-.38M17.91 2H6.09A4.1 4.1 0 0 0 2 6.09v11.82A4.1 4.1 0 0 0 6.09 22h11.82A4.1 4.1 0 0 0 22 17.91V6.09A4.1 4.1 0 0 0 17.91 2m.31 12.28a1.55 1.55 0 0 1-.13.17a5.5 5.5 0 0 1-.8.8c-2 1.87-5.36 4.11-5.81 3.76s.64-1.76-.53-2a1 1 0 0 1-.25 0c-3.44-.48-6-2.89-6-5.78c0-3.25 3.29-5.88 7.34-5.88s7.34 2.63 7.34 5.88a5 5 0 0 1-1.16 3.05m-1.71-4.81H15a.38.38 0 0 0-.38.38v2.84a.38.38 0 0 0 .38.38h1.48a.38.38 0 0 0 .38-.38a.38.38 0 0 0-.38-.38h-1.03v-.6h1.06a.39.39 0 0 0 .38-.39a.38.38 0 0 0-.38-.38h-1.06v-.61h1.06a.38.38 0 0 0 .38-.38a.38.38 0 0 0-.38-.48" />
+                    </svg>
+                </div>
+                <div class="instagram">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24">
+                        <path fill="#F07943"
+                            d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4zm9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8A1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5a5 5 0 0 1-5 5a5 5 0 0 1-5-5a5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3a3 3 0 0 0 3 3a3 3 0 0 0 3-3a3 3 0 0 0-3-3" />
+                    </svg>
+                </div>
+                <div class="twitter">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24">
+                        <path fill="#F07943"
+                            d="M22.46 6c-.77.35-1.6.58-2.46.69c.88-.53 1.56-1.37 1.88-2.38c-.83.5-1.75.85-2.72 1.05C18.37 4.5 17.26 4 16 4c-2.35 0-4.27 1.92-4.27 4.29c0 .34.04.67.11.98C8.28 9.09 5.11 7.38 3 4.79c-.37.63-.58 1.37-.58 2.15c0 1.49.75 2.81 1.91 3.56c-.71 0-1.37-.2-1.95-.5v.03c0 2.08 1.48 3.82 3.44 4.21a4.2 4.2 0 0 1-1.93.07a4.28 4.28 0 0 0 4 2.98a8.52 8.52 0 0 1-5.33 1.84q-.51 0-1.02-.06C3.44 20.29 5.7 21 8.12 21C16 21 20.33 14.46 20.33 8.79c0-.19 0-.37-.01-.56c.84-.6 1.56-1.36 2.14-2.23" />
+                    </svg>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            spaceBetween: 20,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            }
+        });
+    </script>
+
+    <script>
+        function showMenu() {
+            let navMenu = document.getElementById("menu");
+
+            if (navMenu.title === "hidden") {
+                navMenu.style.display = "flex";
+                navMenu.title = "";
+
+            } else {
+                navMenu.style.display = "none";
+                navMenu.title = "hidden";
+            }
+        }
+
+        function init() {
+            document.getElementById("btnHamburger").onclick = showMenu;
+        }
+        window.addEventListener("load", init, false);
+
+    </script>
+
+</body>
+
+</html>
